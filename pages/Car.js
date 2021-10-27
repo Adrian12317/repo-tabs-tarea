@@ -9,7 +9,10 @@ function CarScreen (props) {
       <StyledText>Car</StyledText>
       <Card style={{ 
           background:"white",
-          width: "450px"
+          width: "450px",
+          borderRadius:"8%",
+          textAlign:"center",
+          marginTop:"3%"
         }}>
         <strong> <Card.Header> List Of Products </Card.Header> </strong>
         <ListGroup variant="flush">

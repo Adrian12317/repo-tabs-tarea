@@ -6,6 +6,13 @@ export const StyledView = styled.View`
     flex:1;
     justify-content:${({justify}) => justify ?? "center"};
     align-items:center;
+    &:focus{
+        padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, $primary,$secondary);
+  border-image-slice: 1;
+    }
 `;
 
 export const StyledText = styled.Text`
@@ -16,6 +23,7 @@ export const StyledText = styled.Text`
 export const StyledTextInput = styled.TextInput`
     color: white;
     font-size: 38px;
+    margin-top:2%;
 `;
 
 

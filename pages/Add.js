@@ -18,7 +18,7 @@ function AddScreen (props) {
     
   }
     return(
-      <StyledView justify={"start"}>
+      <StyledView>
       <StyledText>Add to cart</StyledText>
 
       <StyledTextInput

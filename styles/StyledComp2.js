@@ -6,4 +6,7 @@ export const Button = styled.button`
   width:119px;
   height: 60px;
   cursor: pointer;
+  border-radius:15%;
+  border-color:transparent;
+  margin-top:2%;
 `
